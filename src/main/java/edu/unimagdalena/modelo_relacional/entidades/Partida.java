@@ -36,9 +36,9 @@ public class Partida {
     private String provincia;
     @Temporal(TemporalType.DATE)
     private LocalDate fecha;
-    @Temporal(TemporalType.TIME)
+    @Temporal(TemporalType.TIMESTAMP)
     private LocalDateTime hora_comienzo;
-    @Temporal(TemporalType.TIME)
+    @Temporal(TemporalType.TIMESTAMP)
     private LocalDateTime hora_final;
     private Integer participantes;
     private Integer suplentes;
